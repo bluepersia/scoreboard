@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <main>
+      <section class="scoreboard">
+        <h1 class="scoreboard__title">Scoreboard</h1>
+        <ul class="scoreboard__list">
+          <li class="score-team" id="home">
+            <h2 class="score-team__name">Home</h2>
+            <span class="score-team__score">0</span>
+            <section class="score-team__actions">
+              <button class="score-team__button" data-action="+1">+1</button>
+              <button class="score-team__button" data-action="+2">+2</button>
+              <button class="score-team__button" data-action="+3">+3</button>
+            </section>
+          </li>
+          <li class="score-team" id="guest">
+            <h2 class="score-team__name">Guest</h2>
+            <span class="score-team__score">0</span>
+            <section class="score-team__actions">
+              <button class="score-team__button" data-action="+1">+1</button>
+              <button class="score-team__button" data-action="+2">+2</button>
+              <button class="score-team__button" data-action="+3">+3</button>
+            </section>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
