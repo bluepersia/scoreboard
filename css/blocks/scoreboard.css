@@ -1,0 +1,14 @@
+.scoreboard {
+  height: 100vh;
+  text-align: center;
+}
+
+.scoreboard__list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.25rem;
+  list-style: none;
+  padding-left: 0;
+}

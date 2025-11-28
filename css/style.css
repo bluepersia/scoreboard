@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url("./fonts/CursedTimer.ttf");
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(27, 36, 74, 1);
+}
