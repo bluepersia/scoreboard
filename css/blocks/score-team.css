@@ -1,0 +1,50 @@
+.score-team {
+}
+
+.score-team__name {
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1.31rem;
+}
+
+.score-team__score {
+  font-family: "CursedTimer";
+  font-size: 4.5rem;
+  color: #f94f6d;
+  background-color: black;
+  width: 100%;
+  display: block;
+  height: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.31rem;
+  margin-bottom: 1.62rem;
+}
+
+.score-team__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.62rem;
+}
+
+.score-team__button {
+  font-family: "CursedTimer";
+  width: 2.81rem;
+  height: 2.81rem;
+  --light-color: rgba(154, 171, 216, 1);
+  border: 0.125rem solid var(--light-color);
+  background-color: transparent;
+  border-radius: 0.31rem;
+  color: var(--light-color);
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.score-team__button:hover {
+  background-color: var(--light-color);
+  color: black;
+}
